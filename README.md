@@ -38,17 +38,35 @@ Warning: Angular 2.0 is not production ready yet!
 
 ```bash
 # clone our repo
-git clone https://github.com/angularclass/angular2-webpack-starter.git 
+git clone https://github.com/ngUpgraders/ng-forward-webpack-starter.git 
 
 # change directory to our repo
-cd angular2-webpack-starter
+cd ng-forward-webpack-starter
 
 # install the repo with npm
 npm install
 
+# install types definitions via tsd
+tsd install
+
 # start the server
 npm start 
 ```
+go to [http://localhost:3000](http://localhost:3000) in your browser
+
+> Move from Angular 1 to 2 by changing branch
+
+```bash
+# change branch
+git checkout angular2
+
+# install angular2 dependencies
+npm install
+
+# start the server
+npm start
+```
+
 go to [http://localhost:3000](http://localhost:3000) in your browser
 
 # Table of Contents

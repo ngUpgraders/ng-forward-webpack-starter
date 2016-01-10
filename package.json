@@ -9,6 +9,7 @@
     "clean": "rimraf node_modules doc",
     "clean-install": "npm run clean && npm install",
     "clean-start": "npm run clean && npm start",
+    "postinstall": "tsd install",
     "watch": "webpack --watch",
     "server": "webpack-dev-server --inline --colors --display-error-details --display-cached --port 3000",
     "express": "node ./examples/server/express-server-example.js",
@@ -40,6 +41,7 @@
     "reflect-metadata": "0.1.2"
   },
   "devDependencies": {
+    "chai": "^3.4.1",
     "css-loader": "^0.21.0",
     "exports-loader": "0.6.2",
     "expose-loader": "0.7.0",

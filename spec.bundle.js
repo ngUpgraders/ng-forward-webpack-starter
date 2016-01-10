@@ -10,8 +10,6 @@
 */
 Error.stackTraceLimit = Infinity;
 require('reflect-metadata');
-require('angular2/test');
-require('angular2/mock');
 
 /*
   Ok, this is kinda crazy. We can use the the context method on

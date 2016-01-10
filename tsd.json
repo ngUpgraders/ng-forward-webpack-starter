@@ -1,0 +1,39 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "src/typings",
+  "bundle": "src/typings/_custom.d.ts",
+  "installed": {
+    "angularjs/angular.d.ts": {
+      "commit": "c2c22c3b953fe9730d4802022d5e0d18d083909e"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "c2c22c3b953fe9730d4802022d5e0d18d083909e"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "9fb1a5074160e679289b56b99a763104926a4a24"
+    },
+    "es6-shim/es6-shim.d.ts": {
+      "commit": "62eedc3121a5e28c50473d2e4a9cefbcb9c3957f"
+    },
+    "angular-ui-router/angular-ui-router.d.ts": {
+      "commit": "c2c22c3b953fe9730d4802022d5e0d18d083909e"
+    },
+    "mocha/mocha.d.ts": {
+      "commit": "3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9"
+    },
+    "sinon/sinon.d.ts": {
+      "commit": "3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9"
+    },
+    "assertion-error/assertion-error.d.ts": {
+      "commit": "3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9"
+    },
+    "chai/chai.d.ts": {
+      "commit": "3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9"
+    },
+    "sinon-chai/sinon-chai.d.ts": {
+      "commit": "a9ded5b70ede34486731ef6c2e6865f5e9911fc3"
+    }
+  }
+}
